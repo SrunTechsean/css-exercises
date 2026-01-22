@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -34,6 +37,7 @@ input {
 
 .footer {
   background-color: #eeee;
+
 }
 
 ul {
@@ -46,5 +50,5 @@ ul {
 
 a {
   text-decoration: none;
-  color: rgb(76, 76, 76);
+  color: rgb(116, 114, 114);
 }
